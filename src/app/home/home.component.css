@@ -32,3 +32,11 @@
 .N {
     color: rgb(0, 201, 33);
 }
+
+.botao {
+    transition: .3s;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
