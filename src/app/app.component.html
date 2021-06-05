@@ -1,29 +1,14 @@
-<nav class="navbar position-fixed">
-    <div class="title m-3" style="float:left;font-size: 40px !important;">
-        <span>MEAN</span>
+<nav class="navbar position-fixed row justify-content-center d-flex" style="width: 100%;">
+    <div class="title col-2 navtitle" style="font-size: 2.5rem !important; margin-left:40px">
+        <span><span class="M">M</span><span class="E">E</span><span class="A">A</span><span class="N">N</span></span>
         <h4>Stack</h4>
     </div>
-
+    <div class="col-7"></div>
+    <div class="col-2">
+        <button routerLinkActive="active" routerLink="/add-car" type="button" class="btn btn-circle btn-lg"><fa-icon [icon]="faPlus"></fa-icon></button>
+        <button routerLinkActive="active" routerLink="/cars-list" type="button" class="btn btn-circle btn-xl"><fa-icon [icon]="faList"></fa-icon></button>
+        <button routerLinkActive="active" routerLink="/" type="button" class="btn btn-circle btn-md"><fa-icon [icon]="faHome"></fa-icon></button>
+    </div>
 </nav>
 
-
-<div class="main-content">
-    <div class="d-flex justify-content-center align-items-center container">
-        <div class="title col-5">
-            <span>Olá! Seja bem vindo(a) ao meu projeto <span class="M">M</span><span class="E">E</span><span class="A">A</span><span class="N">N</span> Stack</span>
-        </div>
-        <div class="col-4 start d-block">
-            <h5>O que você deseja fazer?</h5>
-            <div class="btn-box d-block">
-                <a routerLinkActive="active" routerLink="/add-car" class="">
-                    <button id="novo" class="botao">Adicionar um novo veículo</button>
-                </a>
-                <a routerLinkActive="active" routerLink="/cars-list" class="">
-                    <button class="botao">Navegar para a Lista</button>
-
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 <router-outlet></router-outlet>

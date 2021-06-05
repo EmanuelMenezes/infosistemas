@@ -9,6 +9,10 @@
     line-height: 1;
 }
 
+.navtitle {
+    cursor: default;
+}
+
 .start {
     color: white;
     border-left: #e7e7e7 1px solid;
@@ -16,18 +20,69 @@
     padding: 50px;
 }
 
-.M {
+.M:hover {
     color: rgb(9, 114, 0);
 }
 
-.E {
+.E:hover {
     color: rgb(255, 230, 1);
 }
 
-.A {
+.A:hover {
     color: red;
 }
 
-.N {
+.N:hover {
     color: rgb(0, 201, 33);
+}
+
+.btn-circle {
+    background-color: white;
+    color: #495057;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.btn-circle:focus {
+    box-shadow: rgba(52, 204, 156, 1) 0 0 5px !important;
+}
+
+.btn-circle.btn-md {
+    width: 40px;
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 14px;
+    line-height: 1.33;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
+.btn-circle:hover {
+    transform: scale(1.15);
 }

@@ -24,6 +24,7 @@ body {
     transition: .5s;
     width: 80%;
     margin-top: 10px;
+    box-shadow: rgba(52, 204, 156, 1) 0 0 5px;
 }
 
 .btn-box {
@@ -69,4 +70,10 @@ body {
 
 .teste {
     line-height: 0.8;
+}
+
+.btn-circle.btn-lg:hover,
+.btn-circle.btn-md:hover,
+.btn-circle.btn-xl:hover {
+    color: rgba(52, 204, 156, 1);
 }

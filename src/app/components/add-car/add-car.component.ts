@@ -2,6 +2,8 @@ import { Component, OnInit, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 import { CrudService } from './../../service/crud.service';
 import { FormGroup, FormBuilder } from "@angular/forms";
+import { faHome, faPencilAlt, faPlus, faThList, faTimes, faUndoAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-add-car',
@@ -9,7 +11,8 @@ import { FormGroup, FormBuilder } from "@angular/forms";
   styleUrls: ['./add-car.component.css']
 })
 export class AddCarComponent implements OnInit {
-
+  
+  faBack= faUndoAlt;
   carForm: FormGroup;
   
   constructor(

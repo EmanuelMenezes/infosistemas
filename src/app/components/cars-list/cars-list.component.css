@@ -1,0 +1,59 @@
+.card {
+    padding: 0;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.btn-circle.red:hover {
+    color: red;
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.btn-circle.yellow:hover {
+    color: rgb(0, 119, 255);
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.btn-circle.btn-md {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 1.33;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}

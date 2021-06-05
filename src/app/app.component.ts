@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faCoffee, faHome, faPlus, faThList } from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -6,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'infosistemas';
+  faPlus = faPlus;
+  faList = faThList;
+  faHome = faHome;
 }
