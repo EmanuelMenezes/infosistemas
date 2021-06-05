@@ -1,0 +1,33 @@
+.main-content {
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px !important;
+    line-height: 1;
+}
+
+.start {
+    color: white;
+    border-left: #e7e7e7 1px solid;
+    height: 300px;
+    padding: 50px;
+}
+
+.M {
+    color: rgb(9, 114, 0);
+}
+
+.E {
+    color: rgb(255, 230, 1);
+}
+
+.A {
+    color: red;
+}
+
+.N {
+    color: rgb(0, 201, 33);
+}

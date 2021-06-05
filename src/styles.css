@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+body {
+    background: linear-gradient(350deg, rgba(248, 250, 252, 1) 0%, rgba(170, 177, 255, 1) 0%, rgba(52, 204, 156, 1) 85%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-control {
+    background-color: #eeeeee !important;
+    color: #666;
+}
+
+.botao {
+    border-radius: 20px;
+    background: #f5f5f5;
+    border: none;
+    color: rgba(52, 204, 156, 1);
+    height: 40px;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    transition: .5s;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.btn-box {
+    margin-top: 75px;
+}
+
+.card {
+    color: #222;
+    width: 750px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    height: 350px;
+    position: relative
+}
+
+.container {
+    height: 100vh
+}
+
+.mobile-text {
+    color: #989696b8;
+    font-size: 15px
+}
+
+.form-control {
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff8880;
+    outline: 0;
+    box-shadow: none
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.teste {
+    line-height: 0.8;
+}
